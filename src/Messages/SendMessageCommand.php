@@ -2,7 +2,7 @@
 
 namespace Musonza\Chat\Messages;
 
-use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model;
 use Musonza\Chat\Models\Conversation;
 
 class SendMessageCommand

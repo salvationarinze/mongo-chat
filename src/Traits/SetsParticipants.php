@@ -2,7 +2,7 @@
 
 namespace Musonza\Chat\Traits;
 
-use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model;
 
 trait SetsParticipants
 {

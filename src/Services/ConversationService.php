@@ -2,7 +2,7 @@
 
 namespace Musonza\Chat\Services;
 
-use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Collection;
 use Musonza\Chat\Eventing\ConversationStarted;

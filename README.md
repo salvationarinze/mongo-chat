@@ -92,7 +92,7 @@ For example, let's say we want out `Bot` model to chat with other Models:
 
 ```php
 
-use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model;
 use Musonza\Chat\Traits\Messageable;
 
 class Bot extends Model

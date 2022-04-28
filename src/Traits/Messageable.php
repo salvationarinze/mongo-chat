@@ -2,7 +2,7 @@
 
 namespace Musonza\Chat\Traits;
 
-use Illuminate\Database\Eloquent\Relations\MorphMany;
+use Jenssegers\Mongodb\Relations\MorphMany;
 use Musonza\Chat\Exceptions\InvalidDirectMessageNumberOfParticipants;
 use Musonza\Chat\Models\Conversation;
 use Musonza\Chat\Models\Participation;
