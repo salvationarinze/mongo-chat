@@ -4,10 +4,10 @@ namespace Musonza\Chat\Models;
 
 use Chat;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\HasMany;
-use Illuminate\Database\Eloquent\Relations\HasOne;
-use Illuminate\Database\Query\Builder;
+use Jenssegers\Mongodb\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Relations\HasMany;
+use Jenssegers\Mongodb\Eloquent\Relations\HasOne;
+use Jenssegers\Mongodb\Query\Builder;
 use Illuminate\Support\Collection;
 use Musonza\Chat\BaseModel;
 use Musonza\Chat\ConfigurationManager;
