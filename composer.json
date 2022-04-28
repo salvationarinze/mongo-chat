@@ -1,12 +1,13 @@
 {
-    "name": "musonza/chat",
-    "description": "Chat Package for Laravel",
+    "name": "salvation/mongo-chat",
+    "description": "Chat Package for Laravel in MongoDB",
     "type": "library",
     "keywords": [
         "laravel",
         "chat",
         "messaging",
-        "conversation"
+        "conversation",
+        "mongo-chat"
     ],
     "require": {
         "php": ">=7.3",
@@ -22,8 +23,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Tinashe Musonza",
-            "email": "tashtin263@gmail.com",
+            "name": "Salvation Arinze",
+            "email": "modernbabbage@gmail.com",
             "role": "Developer"
         }
     ],
