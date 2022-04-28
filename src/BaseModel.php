@@ -2,7 +2,7 @@
 
 namespace Musonza\Chat;
 
-use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model;
 
 class BaseModel extends Model
 {
