@@ -3,15 +3,15 @@
 namespace Musonza\Chat\Models;
 
 use Jenssegers\Mongodb\Relations\BelongsTo;
-//use Jenssegers\Mongodb\Eloquent\SoftDeletes;
+use Jenssegers\Mongodb\Eloquent\SoftDeletes;
 use Musonza\Chat\BaseModel;
 use Musonza\Chat\ConfigurationManager;
 
 class Participation extends BaseModel
 {
-//    use SoftDeletes;
+    use SoftDeletes;
 
-    protected $table = ConfigurationManager::PARTICIPATION_TABLE;
+    protected $collection = ConfigurationManager::PARTICIPATION_TABLE;
     protected $fillable = [
         'conversation_id',
         'settings',

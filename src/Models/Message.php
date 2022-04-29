@@ -21,7 +21,7 @@ class Message extends BaseModel
         'data',
     ];
 
-    protected $table = ConfigurationManager::MESSAGES_TABLE;
+    protected $collection = ConfigurationManager::MESSAGES_TABLE;
     /**
      * All of the relationships to be touched.
      *
