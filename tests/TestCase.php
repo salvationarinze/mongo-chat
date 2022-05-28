@@ -9,7 +9,7 @@ use CreateChatTables;
 use CreateTestTables;
 use Illuminate\Foundation\Application;
 use Musonza\Chat\ChatServiceProvider;
-use Musonza\Chat\Facades\ChatFacade;
+use Musonza\Chat\Facades\Chat;
 use Musonza\Chat\Tests\Helpers\Models\User;
 
 class TestCase extends \Orchestra\Testbench\TestCase
@@ -113,7 +113,7 @@ class TestCase extends \Orchestra\Testbench\TestCase
     protected function getPackageAliases($app)
     {
         return [
-            'Chat' => ChatFacade::class,
+            'Chat' => Chat::class,
         ];
     }
 

@@ -3,9 +3,9 @@
 namespace Musonza\Chat\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Musonza\Chat\Chat;
+use Musonza\Chat\Chat as BaseChat;
 
-class ChatFacade extends Facade
+class Chat extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -15,8 +15,8 @@ class ChatFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        self::clearResolvedInstance(Chat::class);
+        self::clearResolvedInstance(BaseChat::class);
 
-        return Chat::class;
+        return BaseChat::class;
     }
 }
