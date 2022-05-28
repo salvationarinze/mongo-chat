@@ -11,6 +11,8 @@ class MessageNotification extends BaseModel
 {
     use SoftDeletes;
 
+    protected $connection = 'mongodb';
+
     protected $collection = ConfigurationManager::MESSAGE_NOTIFICATIONS_TABLE;
     protected $fillable = ['messageable_id', 'messageable_type', 'message_id', 'conversation_id'];
     protected $dates = ['deleted_at'];

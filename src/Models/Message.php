@@ -14,6 +14,8 @@ class Message extends BaseModel
 {
     use EventGenerator;
 
+    protected $connection = 'mongodb';
+
     protected $fillable = [
         'body',
         'participation_id',

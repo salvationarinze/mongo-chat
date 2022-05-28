@@ -20,6 +20,7 @@ use Musonza\Chat\Exceptions\InvalidDirectMessageNumberOfParticipants;
 
 class Conversation extends BaseModel
 {
+    protected $connection = 'mongodb';
     protected $collection = ConfigurationManager::CONVERSATIONS_TABLE;
     protected $fillable = ['data', 'direct_message'];
     protected $casts = [

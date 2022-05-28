@@ -11,6 +11,8 @@ class Participation extends BaseModel
 {
 //    use SoftDeletes;
 
+    protected $connection = 'mongodb';
+
     protected $collection = ConfigurationManager::PARTICIPATION_TABLE;
     protected $fillable = [
         'conversation_id',
